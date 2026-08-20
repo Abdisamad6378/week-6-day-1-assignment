@@ -1,0 +1,22 @@
+    teacher_name    | total_students 
+--------------------+----------------
+ Dr. Omondi Ochieng |              6
+(1 row)
+
+         course_name         | avg_grade 
+-----------------------------+-----------
+ Database Systems            |     84.67
+ Linear Algebra              |     84.50
+ Web Development             |     82.00
+ Introduction to Programming |     79.50
+ Data Structures             |     76.80
+ Calculus I                  |     76.33
+ Machine Learning            |     72.50
+(7 rows)
+
+  student_name   | course_count 
+-----------------+--------------
+ Kipchoge Kiptoo |            4
+ Wanjiku Kamau   |            4
+(2 rows)
+
