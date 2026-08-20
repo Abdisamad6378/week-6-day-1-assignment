@@ -1,0 +1,27 @@
+INSERT 0 5
+     name      |         email         |   town   
+---------------+-----------------------+----------
+ Njeri Maina   | njeri@student.ac.ke   | Nyeri
+ Kamau Githuku | kamau.g@student.ac.ke | Kiambu
+ Atieno Owino  | atieno@student.ac.ke  | Homa Bay
+ Baraka Mwiti  | baraka@student.ac.ke  | Meru
+ Zawadi Chebet | zawadi@student.ac.ke  | Kericho
+(5 rows)
+
+UPDATE 6
+       name       | grade 
+------------------+-------
+ Akinyi Odhiambo  |    97
+ Kipchoge Kiptoo  |    81
+ Mwenda Mutua     |    78
+ Nyambura Wanjiru |    86
+ Ochieng Otieno   |    75
+ Wanjiku Kamau    |    90
+(6 rows)
+
+DELETE 5
+ remaining_students 
+--------------------
+                 10
+(1 row)
+
