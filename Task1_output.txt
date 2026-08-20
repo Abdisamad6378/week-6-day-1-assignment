@@ -1,0 +1,97 @@
+ id |     name      |         email         | age |  town   
+----+---------------+-----------------------+-----+---------
+  1 | Wanjiku Kamau | wanjiku@student.ac.ke |  22 | Nairobi
+  7 | Amina Wafula  | amina@student.ac.ke   |  22 | Nairobi
+(2 rows)
+
+ id |            name             |  code   | credits 
+----+-----------------------------+---------+---------
+  6 | Calculus I                  | MATH101 |       4
+  1 | Introduction to Programming | CS101   |       4
+  4 | Web Development             | CS102   |       4
+(3 rows)
+
+   student_name   |         course_name         
+------------------+-----------------------------
+ Wanjiku Kamau    | Introduction to Programming
+ Wanjiku Kamau    | Database Systems
+ Wanjiku Kamau    | Calculus I
+ Wanjiku Kamau    | Web Development
+ Ochieng Otieno   | Introduction to Programming
+ Ochieng Otieno   | Data Structures
+ Ochieng Otieno   | Machine Learning
+ Akinyi Odhiambo  | Introduction to Programming
+ Akinyi Odhiambo  | Web Development
+ Akinyi Odhiambo  | Calculus I
+ Njoroge Mwangi   | Data Structures
+ Njoroge Mwangi   | Machine Learning
+ Fatuma Hassan    | Web Development
+ Fatuma Hassan    | Linear Algebra
+ Kipchoge Kiptoo  | Introduction to Programming
+ Kipchoge Kiptoo  | Database Systems
+ Kipchoge Kiptoo  | Data Structures
+ Kipchoge Kiptoo  | Machine Learning
+ Amina Wafula     | Data Structures
+ Amina Wafula     | Calculus I
+ Mwenda Mutua     | Introduction to Programming
+ Mwenda Mutua     | Web Development
+ Nyambura Wanjiru | Database Systems
+ Nyambura Wanjiru | Linear Algebra
+ Nyambura Wanjiru | Introduction to Programming
+ Otieno Oduor     | Machine Learning
+ Otieno Oduor     | Data Structures
+(27 rows)
+
+         course_name         | student_count 
+-----------------------------+---------------
+ Introduction to Programming |             6
+ Data Structures             |             5
+ Web Development             |             4
+ Machine Learning            |             4
+ Database Systems            |             3
+ Calculus I                  |             3
+ Linear Algebra              |             2
+(7 rows)
+
+      name       | age |   town   
+-----------------+-----+----------
+ Kipchoge Kiptoo |  25 | Eldoret
+ Ochieng Otieno  |  24 | Kisumu
+ Otieno Oduor    |  24 | Kisumu
+ Njoroge Mwangi  |  23 | Nakuru
+ Mwenda Mutua    |  23 | Machakos
+(5 rows)
+
+      avg_grade      
+---------------------
+ 78.9259259259259259
+(1 row)
+
+ highest_grade | lowest_grade 
+---------------+--------------
+            92 |           65
+(1 row)
+
+      name       
+-----------------
+ Ochieng Otieno
+ Akinyi Odhiambo
+ Amina Wafula
+ Otieno Oduor
+(4 rows)
+
+         course_name         |    teacher_name    
+-----------------------------+--------------------
+ Introduction to Programming | Dr. Omondi Ochieng
+ Data Structures             | Prof. Wambui Kamau
+ Database Systems            | Dr. Omondi Ochieng
+ Web Development             | Mr. Karanja Mwangi
+ Machine Learning            | Prof. Wambui Kamau
+(5 rows)
+
+  town   | student_count 
+---------+---------------
+ Kisumu  |             2
+ Nairobi |             2
+(2 rows)
+
